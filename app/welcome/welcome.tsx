@@ -1,3 +1,6 @@
+import * as React from 'react'
+import Button from '@mui/material/Button'
+
 import logoDark from './logo-dark.svg'
 import logoLight from './logo-light.svg'
 
@@ -24,6 +27,7 @@ export function Welcome() {
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
               Cosa c'è di nuovo?
             </p>
+            <Button variant="contained">Hello world</Button>
             <ul>
               {resources.map(({ href, text, icon }) => (
                 <li key={href}>
