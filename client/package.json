@@ -1,6 +1,6 @@
 {
-  "name": "professional-profile",
-  "private": false,
+  "name": "client",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "react-router build",
