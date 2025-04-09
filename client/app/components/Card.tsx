@@ -8,7 +8,7 @@ interface ICardProps {
 export function Card(props: ICardProps): JSX.Element {
   const { children, header } = props
   return (
-    <div className="grid grid-cols-1 bg-gradient-to-r from-slate-100 to-slate-200 m-5 rounded-lg">
+    <div className="grid grid-cols-1 bg-gradient-to-r from-slate-100 to-slate-200 m-5 rounded-lg w-full max-w-2xl">
       <div className="m-5">
         {header && (
           <div className="m-5">

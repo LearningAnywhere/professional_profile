@@ -4,7 +4,7 @@ import { IDEAL_JOBS, IDEAL_WORK_ENVIRONMENT } from './constants'
 
 export function Welcome() {
   return (
-    <main>
+    <main className="flex flex-col items-center p-5 justify-center">
       <Card>
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3 text-center">
           <div className="m-5">
